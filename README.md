@@ -1,6 +1,6 @@
 # secure-office-network
 
-This project simulates a secure enterprise network using **Cisco Packet Tracer**. It includes VLAN segmentation, inter-VLAN routing, router-to-router connection, internet simulation via the Cloud, and firewall/router security configurations.
+This project simulates a secure office network using Cisco Packet Tracer. It includes VLAN segmentation, inter-VLAN routing, router-to-router connection, internet simulation via the Cloud, and firewall/router security configurations.
 
 ## Topology Components
 - Cloud-PT: Simulates the internet
@@ -20,22 +20,6 @@ This project simulates a secure enterprise network using **Cisco Packet Tracer**
 - Internet access simulation
 - Ping and Web browser testing
 
-##  IP Scheme
-
-| Device/Group      | Interface         | IP Address      | VLAN  | Description         |
-|-------------------|-------------------|------------------|--------|---------------------|
-| Router0           | G0/0/0, S0/1/0, G0/0/1     |              | -      | Edge router         |
-| Switch 1          | VLAN 10,20,30,99  | ...              | 10/20/etc | Admin, Guest etc |
-| PC1-PCx           | Fa0               | 192.168.x.x      | Varies | End devices         |
-| Server            | Fa0/3              | 192.168.20.20      | Varies | Internal server     |
-| Cloud             | G0/0              | DHCP/Static      | -      | Simulated internet  |
-
-
-##  Files
-
-- `network-topology.png` - visual layout
-- `project.pkt` - Packet Tracer file *(if you wish to include it)*
-- `README.md` - this file
 
 ##  Notes
 
